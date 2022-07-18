@@ -77,7 +77,8 @@ logといえば，`タイスウ`なのでSubmitした．
 補足：
 「対数」(wikipedia)によれば，
 ```対数（たいすう、英: logarithm）とは、ある数 x を数 b の冪乗 b^p として表した場合の冪指数 p である。
-この p は「底を b とする x の対数（英: logarithm of x to base b; base b logarithm of x）」と呼ばれ、通常は log_b (x)と書き表される。```
+この p は「底を b とする x の対数（英: logarithm of x to base b; base b logarithm of x）」と呼ばれ、通常は log_b (x)と書き表される。
+```
 つまり，$$x = b^p \iff log_b x = p log_b b = p$$である． 
 https://ja.wikipedia.org/wiki/%E5%AF%BE%E6%95%B0
 
