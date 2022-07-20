@@ -110,6 +110,7 @@ Hint 2
 ### しし座(21)
 問題文：
 > ルールを守れ
+
 とともに，
 https://ctf.nazotoki.tech/files/eda8b00c4d8687aa83985a5c8273592a/leo.png
 カタカナが散りばめられた画像が掲載されていた．
