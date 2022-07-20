@@ -407,7 +407,7 @@ wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
 java -jar stegsolve.jar
 ```
 
-すると，`ケッパク`と見える画像をずらすポイントがあるので，Submitした．
+すると，とある画像をずらすポイントで`ケッパク`と見えるので，Submitした．
 
 
 
