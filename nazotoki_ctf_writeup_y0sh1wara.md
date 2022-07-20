@@ -177,6 +177,7 @@ Hint 2<br>
 
 補足：<br>
 「Google Chromeデベロッパーツールの使い方」
+
 セレクトモードでページ内の編集したい箇所をクリックして，デベロッパーツール内のElementsパネルで編集したいスクリプトを右クリックして，Edit as HTML(HTMLを編集する)をクリックして編集する．
 https://willcloud.jp/knowhow/dev-tools-01/
 
