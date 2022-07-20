@@ -61,10 +61,10 @@ OWASP Top 10として，Webアプリケーション向けTop10リスクも公開
 問題文：<br>
 > ある数 x を数 b のべき乗bᵖとして表した場合のpのこと。logとも呼ばれるこの数を日本語で何というか？カタカナ4文字で答えよ。
 
-解答：
+解答：<br>
 logといえば，`タイスウ`なのでSubmitした．
 
-補足：
+補足：<br>
 「対数」(wikipedia)によれば，
 ```対数（たいすう、英: logarithm）とは、ある数 x を数 b の冪乗 b^p として表した場合の冪指数 p である。
 この p は「底を b とする x の対数（英: logarithm of x to base b; base b logarithm of x）」と呼ばれ、通常は log_b (x)と書き表される。
