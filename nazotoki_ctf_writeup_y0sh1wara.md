@@ -473,7 +473,8 @@ Password入力欄があった．
 かに座のファイルたちはpcapファイルだったのでWiresharkで中身を見た．どうやらFTP通信しているようで，Protocolカラムを見るとFTP-DATAのやり取りをしているところがあるので，FTP Data(1009 bytes data)を右クリックしてShow Packet Bytesを選択すると画像を確認した．
 すると，pcapファイルごとにさそり座やおひつじ座．．．などが見られる．
 さらに，Next sequence numberとAcknowledgment numberによってファイルの順序が分かるので，12個の星座画像をFTP-DATAで取得しているpcapファイルたちを並べて，1つのファイルに統合しました．
-その統合された星座の順番は次のようになり，これまでのFlag達も並べた．
+
+その統合されたpcapファイルの順番により，星座の順番は次のようになり，これまでのFlag達も並べた．
 
 ```
 うお座: 		ケッパク
