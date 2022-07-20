@@ -32,7 +32,7 @@ CTFとなぞ解きって相性いいのかなっとも思いました．
 Operation LadyBird（てんとう虫作戦）によってウクライナでEmotet を操っていたハッカーの活動拠点に警察が突入捜査を行ったそうだ．
 https://www.asahi.com/articles/ASP2S32BDP2QULZU01C.html
 
-補足：
+補足：<br>
 これにより，command＆controlサーバ(C＆Cサーバあるいは，C2サーバ)を壊滅することで，攻撃者がEmotetを操作できないようにした．
 https://xtech.nikkei.com/atcl/nxt/column/18/00676/030500073/
 
@@ -48,11 +48,11 @@ https://www.nttpc.co.jp/column/security/emotet.html
 問題文：
 > Webアプリケーションのセキュリティ分野の研究・ガイドラインの作成・脆弱性診断ツールの開発・イベント開催などの活動をしているオープンソースソフトウェアコミュニティの名称の読み方をカタカナ4文字で答えよ。
 
-解答：
+解答：<br>
 分からなかったので「Webアプリケーションのセキュリティ分野の研究・ガイドラインの作成・脆弱性診断ツールの開発・イベント開催などの活動をしているオープンソースソフトウェアコミュニティの名称の読み方をカタカナ4文字で答えよ。」でググった．<br>
 OWASPというセキュリティ研究集団は見たことがあったので，`オワスプ`とSubmitした．
 
-補足：
+補足：<br>
 OWASP（Open Web Application Security Project）はOWASP ZAPというWebアプリケーション脆弱性診断ツールや，OWASP Juice ShopとOWASP BWA(The Broken Web Applications)といった脆弱性検査練習用のWebアプリケーションを提供している．
 https://www.itmanage.co.jp/column/about-owasp/
 OWASP Top 10として，Webアプリケーション向けTop10リスクも公開している．
