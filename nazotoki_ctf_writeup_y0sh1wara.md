@@ -1,13 +1,3 @@
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-<script type="text/x-mathjax-config">
- MathJax.Hub.Config({
- tex2jax: {
- inlineMath: [['$', '$'] ],
- displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
- }
- });
-</script>
 # nazotoki_ctf_writeup_y0sh1wara
 開催URL
 https://ctf.nazotoki.tech/
@@ -79,7 +69,8 @@ logといえば，`タイスウ`なのでSubmitした．
 ```対数（たいすう、英: logarithm）とは、ある数 x を数 b の冪乗 b^p として表した場合の冪指数 p である。
 この p は「底を b とする x の対数（英: logarithm of x to base b; base b logarithm of x）」と呼ばれ、通常は log_b (x)と書き表される。
 ```
-つまり，$$x = b^p \iff log_b x = p log_b b = p$$である． 
+つまり，
+x = b^p iff(同値) log_b x = p log_b b = pである． 
 https://ja.wikipedia.org/wiki/%E5%AF%BE%E6%95%B0
 
 
