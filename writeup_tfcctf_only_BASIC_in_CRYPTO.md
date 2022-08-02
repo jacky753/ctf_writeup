@@ -41,11 +41,13 @@ https://github.com/aberaud/base91-python
 
 ダウンロードした同じディレクトリにpythonファイルを作成して次のコードを実行した．
 
-filename='decode_base91.py'
+filename='decode_base91.py'として以下のプログラムを作成した．
 ```
 import base91
 base91.decode("/Rn/X7n#bUc.rjzh,|eEsg,?&QI;@^ARm}UKOkICi#X.ixEmN]D") 
 ```
+
+Anaconda Promptにて以下の命令を実行した．
 ```
 python decode_base91.py
 ```
