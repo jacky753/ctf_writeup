@@ -31,19 +31,19 @@ CTFとなぞ解きって相性いいのかなっとも思いました．<br>
 `テントウ` をSubmitする．<br>
 「〇〇〇〇ムシ」といったら天道虫くらいが思い付いたので提出したらクリアした．<br>
 
-Operation LadyBird（てんとう虫作戦）によってウクライナでEmotet を操っていたハッカーの活動拠点に警察が突入捜査を行ったそうだ．
+Operation LadyBird（てんとう虫作戦）によってウクライナでEmotet を操っていたハッカーの活動拠点に警察が突入捜査を行ったそうだ．<br>
 https://www.asahi.com/articles/ASP2S32BDP2QULZU01C.html
 
 補足：<br>
-これにより，command＆controlサーバ(C＆Cサーバあるいは，C2サーバ)を壊滅することで，攻撃者がEmotetを操作できないようにした．
-https://xtech.nikkei.com/atcl/nxt/column/18/00676/030500073/
+これにより，command＆controlサーバ(C＆Cサーバあるいは，C2サーバ)を壊滅することで，攻撃者がEmotetを操作できないようにした．<br>
+https://xtech.nikkei.com/atcl/nxt/column/18/00676/030500073/<br>
 
 
-Emotet はマルウェアの一種であるボットであり，行政や取引先になりすました不正なメールに添付されたファイル（マクロを実行できるWordやExcelファイル）において「コンテンツの有効化」を行うことで，C2サーバからの命令を実行するようになり，認証情報やネットワーク内の機密情報が外部へ流出し，他の端末に感染した後（自己増殖するワームの性質も持つ．），データが暗号化されること（さらに身代金を要求するランサムウェアに感染させる「トロイの木馬」として機能する．）もあるようです．
-https://www.softbank.jp/biz/blog/business/articles/202202/emotet/
+Emotet はマルウェアの一種であるボットであり，行政や取引先になりすました不正なメールに添付されたファイル（マクロを実行できるWordやExcelファイル）において「コンテンツの有効化」を行うことで，C2サーバからの命令を実行するようになり，認証情報やネットワーク内の機密情報が外部へ流出し，他の端末に感染した後（自己増殖するワームの性質も持つ．），データが暗号化されること（さらに身代金を要求するランサムウェアに感染させる「トロイの木馬」として機能する．）もあるようです．<br>
+https://www.softbank.jp/biz/blog/business/articles/202202/emotet/<br>
 
-対策には，DNSセキュリティやセキュアWebゲートウェイなどがある．
-https://www.nttpc.co.jp/column/security/emotet.html
+対策には，DNSセキュリティやセキュアWebゲートウェイなどがある．<br>
+https://www.nttpc.co.jp/column/security/emotet.html<br>
 
 
 ### おとめ座(22)
@@ -55,9 +55,9 @@ https://www.nttpc.co.jp/column/security/emotet.html
 OWASPというセキュリティ研究集団は見たことがあったので，`オワスプ`とSubmitした．
 
 補足：<br>
-OWASP（Open Web Application Security Project）はOWASP ZAPというWebアプリケーション脆弱性診断ツールや，OWASP Juice ShopとOWASP BWA(The Broken Web Applications)といった脆弱性検査練習用のWebアプリケーションを提供している．
-https://www.itmanage.co.jp/column/about-owasp/
-OWASP Top 10として，Webアプリケーション向けTop10リスクも公開している．
+OWASP（Open Web Application Security Project）はOWASP ZAPというWebアプリケーション脆弱性診断ツールや，OWASP Juice ShopとOWASP BWA(The Broken Web Applications)といった脆弱性検査練習用のWebアプリケーションを提供している．<br>
+https://www.itmanage.co.jp/column/about-owasp/<br>
+OWASP Top 10として，Webアプリケーション向けTop10リスクも公開している．<br>
 
 ### やぎ座(32)
 問題文：<br>
