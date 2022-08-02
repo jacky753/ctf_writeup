@@ -50,7 +50,7 @@ base91.decode("/Rn/X7n#bUc.rjzh,|eEsg,?&QI;@^ARm}UKOkICi#X.ixEmN]D")
 python decode_base91.py
 ```
 
-これで何故かgit cloneしたプログラム内のerrorが出てきたので，
+これで何故かgit cloneしたプログラム内に起因するerrorが出てきたので，
 
 https://pypi.org/project/base91/
 
