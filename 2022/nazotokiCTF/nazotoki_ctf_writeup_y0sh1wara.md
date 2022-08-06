@@ -408,7 +408,7 @@ Hint 2<br>
 
 「リファラー 書き換え」でググると，Chromeでリファラを指定するプラグイン「Referer Control」の説明が出てくるので，ダウンロードして使う．
 site filter のenter site にhttps://libra.ctf.nazotoki.tech/ と入力し，Customにhttp://aquarius.libra.ctf.nazotoki.tech/ と入力して，https://libra.ctf.nazotoki.tech/ にアクセスする．<br>
- ここの他の方法は，Burpsuiteを使って，```Referer:aquarius```を加えても同じことが出来るようです．．<br>
+ ここの他の方法は，Burpsuiteを使って，```Referer:aquarius```を加えても同じことが出来るようです．<br>
 すると，次のようにRSA PRIVATE KEY（秘密鍵）が表示された．<br>
 
 ```
@@ -460,7 +460,7 @@ Hint 4<br>
 > もしあなたが若者なら、年上の人に見せてみるとピンとくる人がいるかもしれません。
 
 
-プールの水面を撮影したようなpisces.jpgだが．．．両目立体視，立体写真とも呼ばれ，「交差法」（2枚並べて寄り目で見る）または「並行法」（2枚並べて見る）という見方で見ると文字が浮かび上がる．<br>
+プールの水面を撮影したようなpisces.jpgだが，両目立体視や立体写真とも呼ばれ，「交差法」（2枚並べて寄り目で見る）または「並行法」（2枚並べて見る）という見方で見ると文字が浮かび上がる．<br>
 https://www.stereoeye.jp/howto/cross.html<br>
 https://www.stereoeye.jp/howto/parallel.html<br>
 
