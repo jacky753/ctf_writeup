@@ -504,8 +504,7 @@ answersheet.pdf がダウンロード出来た．<br>
 ![answersheet.png](img/answersheet.png "answersheet.png")
 
 解答：<br>
-この問題は私ではなくMsYさんが解いたのでざっくりとした解答です．<br>
-プロローグに黄道１２星座が数字とセットで記載されていたので，これまで解いてきた問題のFlag(解答)をanswersheet.pdfの数字の横に入力していった．
+プロローグに黄道１２星座が数字とセットで記載されていたので，これまで解いてきた問題のFlag(解答)をanswersheet.pdfの4文字分の空欄に入力していった．<br>
 ```
 1, おひつじ座：	ハンドル
 2,  おうし座：	テントウ
