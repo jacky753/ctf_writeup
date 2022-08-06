@@ -181,17 +181,16 @@ Hint 2<br>
 > やりかたがわからなければ「開発者ツール html 書き換え」とかでぐぐるといいかもしれません。
 
 
-指示通りググって，htmlを上記のように編集して，`nazotokiCTF{ナイーブ}`を確認した．
-`ナイーブ`をSubmitした．
+指示通りググって，htmlを上記のように編集して，`nazotokiCTF{ナイーブ}`を確認した．<br>
+`ナイーブ`をSubmitした．<br>
 
 補足：<br>
-「Google Chromeデベロッパーツールの使い方」
-
-セレクトモードでページ内の編集したい箇所をクリックする．デベロッパーツール内のElementsパネルで編集したいスクリプトを右クリックして，Edit as HTML(HTMLを編集する)をクリックすると編集できる．
+Google Chromeデベロッパーツールでページ内の要素を編集する方法について．<br>
+セレクトモードでページ内の編集したい箇所をクリックする．デベロッパーツール内のElementsパネルで編集したいスクリプトを右クリックして，Edit as HTML(HTMLを編集する)をクリックすると編集できる．<br>
 https://willcloud.jp/knowhow/dev-tools-01/
 
-dioskouroiとは「ゼウスの息子」という意味で，ふたご座の名前の由来になった．
-https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AD%E3%82%A4
+dioskouroiとは「ゼウスの息子」という意味で，ふたご座の名前の由来になった．<br>
+https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA%E3%82%B9%E3%82%AF%E3%83%BC%E3%83%AD%E3%82%A4<br>
 
 
 
@@ -220,9 +219,9 @@ Hint 2<br>
 
 補足：<br>
 user-agentの変更方法は次のようである．<br>
-「ChromeでUA偽装するには？ユーザーエージェント（useragent）変更方法を解説！スマホ/ガラケ/IE」<br>
 デベロッパーツールツールを開いて，右側のメニューをクリックして，More toolsを選択し，Network conditionsをクリックする．
 User Agentの項目で，Select automaticallyのチェックを外して，Customを選択して，`stardustChrome`を入力して，Webページを更新した．<br>
+「ChromeでUA偽装するには？ユーザーエージェント（useragent）変更方法を解説！スマホ/ガラケ/IE」<br>
 https://aprico-media.com/posts/1579
 
 ### みずがめ座(33)
