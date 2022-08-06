@@ -160,7 +160,7 @@ Hint 3<br>
 ## Web - Air elements
 ### ふたご座(13)
 問題：<br>
-> Webサイトにアクセスしフラグを探せ
+> Webサイトにアクセスしフラグを探せ<br>
 > https://gemini.ctf.nazotoki.tech/
 
 解答：<br>
@@ -196,7 +196,7 @@ https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA%E3%82%B9%E3%82%AF%E3%8
 
 ### てんびん座(23)
 問題：<br>
-> Webサイトにアクセスしフラグを探せ
+> Webサイトにアクセスしフラグを探せ<br>
 > https://libra.ctf.nazotoki.tech/
 
 ```
@@ -227,7 +227,7 @@ https://aprico-media.com/posts/1579
 
 ### みずがめ座(33)
 問題：<br>
-> Webサイトにアクセスしフラグを探せ
+> Webサイトにアクセスしフラグを探せ<br>
 > https://aquarius.ctf.nazotoki.tech/
 
 
@@ -534,7 +534,7 @@ https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#2nd-challenge%E3%81%B
 ## Last Challenge
 ### 最終問題(200)
 問題文：<br>
-> パスワードを解け
+> パスワードを解け<br>
 > https://polaris.ctf.nazotoki.tech/
 
 Webページには，
@@ -589,7 +589,7 @@ https://sugarsugar.conf.jp/wireshark%E3%81%A7%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%9
 
 ## Congratulations!!
 ### Thank you(201)
-アンケートを答えたらFlagが表示された．
+アンケートに答えたらFlagが表示された．
 `nazotokiCTF{アリガト}`<br>
 `アリガト`をSubmitした．
 
