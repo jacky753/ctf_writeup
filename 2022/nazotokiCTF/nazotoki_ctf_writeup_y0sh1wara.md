@@ -504,6 +504,10 @@ answersheet.pdf がダウンロード出来た．<br>
 ![answersheet.png](img/answersheet.png "answersheet.png")
 
 解答：<br>
+MsYさんが解いたので，<br>
+https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#2nd-challenge%E3%81%B8%E3%81%B3%E3%81%A4%E3%81%8B%E3%81%84%E5%BA%A7<br>
+を参考に解説する．<br>
+
 プロローグに黄道１２星座が数字とセットで記載されていたので，これまで解いてきた問題のFlag(解答)をanswersheet.pdfの4文字分の空欄に入力していった．<br>
 ```
 1, おひつじ座：	ハンドル
