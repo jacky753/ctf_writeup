@@ -362,7 +362,7 @@ https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%95%E3%81%9
 Hint 1
 > 世界一かわいい犬なのでよく見てください
 
-![scorpio.jpg](img/scorpio.png "scorpio.png")
+![scorpio.jpg](img/scorpio.jpg "scorpio.jpg")
 
 かわいいな．．．拡大してよく見ると，ダックスフンドの両目に反射して映った`カクダイ`という文字が確認できたのでSubmitした．
 
