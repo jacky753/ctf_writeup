@@ -73,8 +73,8 @@ logといえば，`タイスウ`なのでSubmitした．
 通常は log_b (x)と書き表される。
 ```
 つまり，
-x = b^p iff(同値) log_b x = p log_b b = pである． 
-https://ja.wikipedia.org/wiki/%E5%AF%BE%E6%95%B0
+x = b^p iff(同値) log_b x = p log_b b = pである．<br> 
+https://ja.wikipedia.org/wiki/%E5%AF%BE%E6%95%B0<br>
 
 
 
@@ -83,7 +83,7 @@ https://ja.wikipedia.org/wiki/%E5%AF%BE%E6%95%B0
 Riddleとは，ゲルマン語源の「なぞなぞ，不可解なもの」という意味．<br>
 https://kotobank.jp/word/riddle-1245112<br>
 ハリーポッターの"例のあの人"の本名でもある．<br>
-https://kotobank.jp/word/%E3%83%B4%E3%82%A9%E3%83%AB%E3%83%87%E3%83%A2%E3%83%BC%E3%83%88-1732832
+https://kotobank.jp/word/%E3%83%B4%E3%82%A9%E3%83%AB%E3%83%87%E3%83%A2%E3%83%BC%E3%83%88-1732832<br>
 
 ### おひつじ座(11)
 問題文：<br>
@@ -196,7 +196,8 @@ https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA%E3%82%B9%E3%82%AF%E3%8
 
 ### てんびん座(23)
 問題：<br>
-> Webサイトにアクセスしフラグを探せhttps://libra.ctf.nazotoki.tech/
+> Webサイトにアクセスしフラグを探せ
+https://libra.ctf.nazotoki.tech/
 
 ```
 Libra
@@ -226,7 +227,8 @@ https://aprico-media.com/posts/1579
 
 ### みずがめ座(33)
 問題：<br>
-> Webサイトにアクセスしフラグを探せhttps://aquarius.ctf.nazotoki.tech/
+> Webサイトにアクセスしフラグを探せ
+https://aquarius.ctf.nazotoki.tech/
 
 
 解答：<br>
@@ -285,7 +287,9 @@ https://www.shadan-kun.com/waf/sql_injection/
 cancer.zip がダウンロードできた．
 
 解答：<br>
-MsYさんが解いたので，https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%8B%E3%81%AB%E5%BA%A7 を参考に解説する．<br>
+MsYさんが解いたので，<br>
+https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%8B%E3%81%AB%E5%BA%A7 <br>
+を参考に解説する．<br>
 
 zipファイルを解凍（展開）すると13個のファイルが確認できた．<br>
 13個のファイルがあるディレクトリでfileコマンドを実行すると，12個のファイルはpcapファイルだったが，1個のファイルf0525aafa095ed2665d03681537a70eaだけは文字コードUTF-8のテキストファイルだった．
@@ -352,7 +356,9 @@ nazotokiCTF{イイワケ}
 scorpio.jpgとしてダウンロード出来た．
 
 解答：<br>
-MsYさんが解いたので，https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%95%E3%81%9D%E3%82%8A%E5%BA%A7 を参考に解説する．<br>
+MsYさんが解いたので，<br>
+https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%95%E3%81%9D%E3%82%8A%E5%BA%A7<br> 
+を参考に解説する．<br>
 Hint 1
 > 世界一かわいい犬なのでよく見てください
 
@@ -388,7 +394,9 @@ cf9d ef91 4876 c601 a1ce 8b23 7edb 1cc9
 encrypt-pisces-new.zipにはpisces.jpgという画像ファイルがあったが，パスワードがないと開けない．
 
 解答：<br>
-MsYさんが解いたので，https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%86%E3%81%8A%E5%BA%A7 を参考に解説する．<br>
+MsYさんが解いたので，<br>
+https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%86%E3%81%8A%E5%BA%A7 <br>
+を参考に解説する．<br>
 
 Hint 1<br>
 > みずがめ座からてんびん座に向かうとき…ヘッダー情報に記録されるものはなんでしょうか？
@@ -399,7 +407,7 @@ Hint 2<br>
 > やり方がわからない人は「リファラー　書き換え」とかでぐぐると良いかもしれません。
 
 「リファラー 書き換え」でググると，Chromeでリファラを指定するプラグイン「Referer Control」の説明が出てくるので，ダウンロードして使う．
-site filter のenter site にhttps://libra.ctf.nazotoki.tech/ と入力し，Customにhttp://aquarius.libra.ctf.nazotoki.tech/ と入力して，https://libra.ctf.nazotoki.tech/ にアクセスする．
+site filter のenter site にhttps://libra.ctf.nazotoki.tech/ と入力し，Customにhttp://aquarius.libra.ctf.nazotoki.tech/ と入力して，https://libra.ctf.nazotoki.tech/ にアクセスする．<br>
  ここの他の方法は，Burpsuiteを使って，```Referer:aquarius```を加えても同じことが出来るようです．．<br>
 すると，次のようにRSA PRIVATE KEY（秘密鍵）が表示された．<br>
 
