@@ -104,7 +104,7 @@ Hint 2
 > あなたが目指してるものは「セキュリティ業界の星」 つまり…「★」 どこかにマークがなかったでしょうか？テキストとは限りませんよ？
 
 "「★」マークはテキストとは限りません"とのことから，クリックするとai-intro.pngとしてダウンロードできる画像に「★」マークを上下に確認した．
-主人公の高橋ピヨ彦くんは"セキュリティ業界の星「★」"を目指しているので，その上下「★」マーク直線上にある文字を読むと`ハン ド          ル`とある．<br>
+主人公の高橋ピヨ彦くんは"セキュリティ業界の星「★」"を目指しているので，その上下「★」マーク直線上にある文字を読むと，★`ハン ド          ル`★とある．<br>
 `ハンドル`をSubmitした．
 
 補足：<br>
@@ -271,7 +271,9 @@ user = 'satou'
 if user == 'taro' or 1==1:
 	print("Hello, world!")
 ```
-が実行されるのと同じ．
+が実行されるのと同じ．<br>
+
+「SQLインジェクションとは？仕組み・被害事例・対策をわかりやすく解説」<br>
 https://www.shadan-kun.com/waf/sql_injection/
 
 
@@ -282,26 +284,64 @@ https://www.shadan-kun.com/waf/sql_injection/
 cancer.zip がダウンロードできた．
 
 解答：<br>
-私ではなくMsYさんが解いたのでざっくり記載する．
+MsYさんが解いたので，https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%8B%E3%81%AB%E5%BA%A7 を参考に解説する．<br>
+
+zipファイルを解凍（展開）すると13個のファイルが確認できた．<br>
+13個のファイルがあるディレクトリでfileコマンドを実行すると，12個のファイルはpcapファイルだったが，1個のファイルf0525aafa095ed2665d03681537a70eaだけは文字コードUTF-8のテキストファイルだった．
 ```
-4de447a391e32baeb5a52c55aa14467b
-7c70e2cb2b4a13c4590f6b15c30385fd
-44ca0844398b2d010d8cd4a31ddb023d
-397cbf6db9d7ae6906ae420aedc5346c
-550eadb88a230018bf043d1b6ad15863
-635cbc8a5dc1a528c3b5cb9eecdc1086
-766cc4dd4d5005652e8514e3513683f8
-0961db32a59b8a83c1996498f9d1d80e
-7463543d784aa59ca86359a50ef58c8e
-a0678bcea04dbd6852c219062ab2bb3c
-b9c94e8a87e3647c5a0fa4ff358ecc65
-f8a5c386478fa64f118056b82acc31d2
-f0525aafa095ed2665d03681537a70ea
+$ file ./*
+./0961db32a59b8a83c1996498f9d1d80e: pcapng capture file - version 1.0
+./397cbf6db9d7ae6906ae420aedc5346c: pcapng capture file - version 1.0
+./44ca0844398b2d010d8cd4a31ddb023d: pcapng capture file - version 1.0
+./4de447a391e32baeb5a52c55aa14467b: pcapng capture file - version 1.0
+./550eadb88a230018bf043d1b6ad15863: pcapng capture file - version 1.0
+./635cbc8a5dc1a528c3b5cb9eecdc1086: pcapng capture file - version 1.0
+./7463543d784aa59ca86359a50ef58c8e: pcapng capture file - version 1.0
+./766cc4dd4d5005652e8514e3513683f8: pcapng capture file - version 1.0
+./7c70e2cb2b4a13c4590f6b15c30385fd: pcapng capture file - version 1.0
+./a0678bcea04dbd6852c219062ab2bb3c: pcapng capture file - version 1.0
+./b9c94e8a87e3647c5a0fa4ff358ecc65: pcapng capture file - version 1.0
+./f0525aafa095ed2665d03681537a70ea: UTF-8 Unicode text
+./f8a5c386478fa64f118056b82acc31d2: pcapng capture file - version 1.0
 ```
-zipファイルを解凍（展開）すると13個のファイルが確認できた．
-12個のファイルはpcapファイルだったが，1個のファイルf0525aafa095ed2665d03681537a70eaだけはUTF-8ファイルだったのでテキストエディタで開くと，
-`nazotokiCTF{イイワケ}`
-と，最終行に書かれていたので，`イイワケ`とSubmitした．
+テキストファイルf0525aafa095ed2665d03681537a70eaをcatコマンドなり，テキストエディタで開くと，`nazotokiCTF{イイワケ}`最終行に書かれていたので，`イイワケ`とSubmitした．<br>
+```
+$ cat ./f0525aafa095ed2665d03681537a70ea
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+Open in Notepad.Open in Notepad.Open in Notepad.Open in Notepad.
+nazotokiCTF{イイワケ}
+```
 
 
 ### さそり座(24)
@@ -311,7 +351,7 @@ zipファイルを解凍（展開）すると13個のファイルが確認でき
 scorpio.jpgとしてダウンロード出来た．
 
 解答：<br>
-私ではなくMsYさんが解いたのでざっくり記載する．
+MsYさんが解いたので，https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%95%E3%81%9D%E3%82%8A%E5%BA%A7 を参考に解説する．<br>
 Hint 1
 > 世界一かわいい犬なのでよく見てください
 かわいいな．．．拡大してよく見ると，ダックスフンドの両目に反射して映った`カクダイ`という文字が確認できたのでSubmitした．
@@ -321,7 +361,7 @@ Hint 1
 > みずがめ座からてんびん座に向かうとき、ひみつの鍵が手に入るだろう。水の中に浮かぶ真実を見定めよ。
 
 password.encとencrypt-pisces-new.zipというファイルがダウンロード出来た．<br>
-中身は次のようである．
+password.encの中身は次のようである．これは公開鍵で暗号化されたファイルである．<br>
 
 ```password.enc
 0fb3 8c03 8755 5108 4928 4ce1 447d a628
@@ -344,6 +384,8 @@ cf9d ef91 4876 c601 a1ce 8b23 7edb 1cc9
 encrypt-pisces-new.zipにはpisces.jpgという画像ファイルがあったが，パスワードがないと開けない．
 
 解答：<br>
+MsYさんが解いたので，https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%86%E3%81%8A%E5%BA%A7 を参考に解説する．<br>
+
 Hint 1<br>
 > みずがめ座からてんびん座に向かうとき…ヘッダー情報に記録されるものはなんでしょうか？
 
@@ -354,7 +396,8 @@ Hint 2<br>
 
 「リファラー 書き換え」でググると，Chromeでリファラを指定するプラグイン「Referer Control」の説明が出てくるので，ダウンロードして使う．
 site filter のenter site にhttps://libra.ctf.nazotoki.tech/ と入力し，Customにhttp://aquarius.libra.ctf.nazotoki.tech/ と入力して，https://libra.ctf.nazotoki.tech/ にアクセスする．
-すると，次のようにRSA PRIVATE KEYが表示された．
+ ここの他の方法は，Burpsuiteを使って，```Referer:aquarius```を加えても同じことが出来るようです．．<br>
+すると，次のようにRSA PRIVATE KEY（秘密鍵）が表示された．<br>
 
 ```
 遠いところをよくおいでくださいました。ひみつの鍵を差し上げます。
@@ -387,9 +430,16 @@ NjQ0gdNlw4NLioSXny6/0k5G4OIzwh8QNf38sZGKhm7FMVQ4G8r1Yw==
 -----END RSA PRIVATE KEY-----
 ```
 
-これで，秘密鍵と公開鍵（password.encより）が揃ったので，
-http://ctf.publog.jp/tag/Crypto
-を参考にパスワードを復元する．
+これで，秘密鍵(RSA PRIVATE KEY)と公開鍵で暗号化されたファイル(password.enc)が揃ったので，opensslコマンドを使った<br>
+https://hana-shin.hatenablog.com/entry/2022/01/29/184741<br>
+を参考に暗号化されたファイルからパスワードを復元する．<br>
+
+```
+$ openssl rsautl -decrypt -in password.enc -inkey private.ky
+The password for the zip is "fomalhaut".
+```
+このように秘密鍵を用いてencファイルを復号すると、```fomalhautが```パスワードだと分かりました。<br>
+
 
 encrypt-pisces-new.zipファイルを解凍して，画像pisces.jpgを確認した．
 
@@ -403,15 +453,21 @@ https://www.stereoeye.jp/howto/cross.html
 https://www.stereoeye.jp/howto/parallel.html
 
 
-しかし，難しいので，ステガノグラフィーツールによって文字を復元出来るようだ．
+しかし，難しいので，ステガノグラフィーツールによって文字を復元出来るようだ．<br>
+今回はstegsolveを使い、画像のOffsetをずらすと`ケッパク`と見えたので，Submitした．<br>
+
+stegsolveは次のコマンドでダウンロードとコンパイルが出来る．javaの実行環境にはJDK(Java Development Kit)が必要なので，ない人は調べてみてください．<br>
 ```
 wget http://www.caesum.com/handbook/Stegsolve.jar -O stegsolve.jar
 java -jar stegsolve.jar
 ```
 
-すると，画像をずらすととあるスライドポイントで`ケッパク`と見えるので，Submitした．
+補足：<br>
+公開鍵と秘密鍵で構成されるRSA暗号解読の説明は次<br>
+http://ctf.publog.jp/tag/Crypto<br>
 
-
+Refererの説明は次<br>
+https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Referer<br>
 
 ## 2nd Challenge
 ### へびつかい座(100)
@@ -520,7 +576,7 @@ curl https://docs.google.com/forms/d/e/1FAIpQLSfRQck97eWMf3YFLLzhAF14kpyLODVZC2e
 ```
 でも確かめられる．
 
-
+以上となります．
 
 
 
