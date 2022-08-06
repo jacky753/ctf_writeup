@@ -464,7 +464,7 @@ Hint 4<br>
 https://www.stereoeye.jp/howto/cross.html<br>
 https://www.stereoeye.jp/howto/parallel.html<br>
 
-![pisces.jpg](img/pisces.png "pisces.png")
+![pisces.jpg](img/pisces.jpg "pisces.jpg")
 
 しかし，難しいので，ステガノグラフィーツールによって文字を復元出来るようだ．<br>
 今回はstegsolveを使い、画像のOffsetをずらすと`ケッパク`と見えたので，Submitした．<br>
