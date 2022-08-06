@@ -160,8 +160,8 @@ Hint 3<br>
 ## Web - Air elements
 ### ふたご座(13)
 問題：<br>
-> Webサイトにアクセスしフラグを探せ<br>
-https://gemini.ctf.nazotoki.tech/
+> Webサイトにアクセスしフラグを探せ
+> https://gemini.ctf.nazotoki.tech/
 
 解答：<br>
 ```
@@ -197,7 +197,7 @@ https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%82%AA%E3%82%B9%E3%82%AF%E3%8
 ### てんびん座(23)
 問題：<br>
 > Webサイトにアクセスしフラグを探せ
-https://libra.ctf.nazotoki.tech/
+> https://libra.ctf.nazotoki.tech/
 
 ```
 Libra
@@ -228,7 +228,7 @@ https://aprico-media.com/posts/1579
 ### みずがめ座(33)
 問題：<br>
 > Webサイトにアクセスしフラグを探せ
-https://aquarius.ctf.nazotoki.tech/
+> https://aquarius.ctf.nazotoki.tech/
 
 
 解答：<br>
