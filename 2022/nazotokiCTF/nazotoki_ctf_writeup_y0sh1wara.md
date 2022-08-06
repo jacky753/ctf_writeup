@@ -545,7 +545,7 @@ Password入力欄があった．
 
 解答：<br>
 「パスワードのヒントは愛の星座の中」とあるので，問題みずがめ座でアイさんは7月18日生まれでかに座と分かるので，問題かに座のファイルたちを確認した．<br>
-かに座のファイルたちはpcapファイルだったのでWiresharkで中身を見た．どうやらFTP通信しているようで，Protocolカラムを見るとFTP-DATAのやり取りをしているところがあるので，FTP Data(1009 bytes data)を右クリックしてShow Packet Bytesを選択すると画像を確認した．<br>
+かに座のファイルたちはpcapファイルだったのでWiresharkで中身を見た．どうやらFTP通信しているようで，Protocolカラムを見るとFTP-DATAのやり取りをしているところがあるので，FTP Data(1009 bytes data)を右クリックしてShow Packet Bytesを選択すると画像が確認できた．<br>
 すると，pcapファイルごとにさそり座やおひつじ座．．．などが見られる．<br>
 さらに，Next sequence numberとAcknowledgment numberによってファイルの順序が分かるので，12個の星座画像をFTP-DATAで取得しているpcapファイルたちを並べて，1つのファイルに統合しました．<br>
 
