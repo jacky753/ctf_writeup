@@ -177,7 +177,7 @@ Hint 1<br>
 
 Hint 2<br>
 > 35行目の <input type="hidden" name="realPassword" value="dummyPassword">
-> でdummyPasswordという文字列が強制的に入力されているようです。これをdioskouroiに書き換えることができれば良さそうです。
+> で"dummyPassword"という文字列が強制的に入力されているようです。これをdioskouroiに書き換えることができれば良さそうです。
 > やりかたがわからなければ「開発者ツール html 書き換え」とかでぐぐるといいかもしれません。
 
 
@@ -356,6 +356,9 @@ scorpio.jpgとしてダウンロード出来た．
 MsYさんが解いたので，https://github.com/msymt/ctf-writeup/tree/main/nazotokiCTF#misc%E3%81%95%E3%81%9D%E3%82%8A%E5%BA%A7 を参考に解説する．<br>
 Hint 1
 > 世界一かわいい犬なのでよく見てください
+
+![scorpio.jpg](img/scorpio.png "scorpio.png")
+
 かわいいな．．．拡大してよく見ると，ダックスフンドの両目に反射して映った`カクダイ`という文字が確認できたのでSubmitした．
 
 ### うお座(34)
@@ -450,13 +453,16 @@ Hint 4<br>
 > もしあなたが若者なら、年上の人に見せてみるとピンとくる人がいるかもしれません。
 
 
-プールの水面を撮影したようなpisces.jpgだが．．．両目立体視，立体写真とも呼ばれ，「交差法」（2枚並べて寄り目で見る）または「並行法」（2枚並べて見る）という見方で見ると文字が浮かび上がる．
-https://www.stereoeye.jp/howto/cross.html
-https://www.stereoeye.jp/howto/parallel.html
+プールの水面を撮影したようなpisces.jpgだが．．．両目立体視，立体写真とも呼ばれ，「交差法」（2枚並べて寄り目で見る）または「並行法」（2枚並べて見る）という見方で見ると文字が浮かび上がる．<br>
+https://www.stereoeye.jp/howto/cross.html<br>
+https://www.stereoeye.jp/howto/parallel.html<br>
 
+![pisces.jpg](img/pisces.png "pisces.png")
 
 しかし，難しいので，ステガノグラフィーツールによって文字を復元出来るようだ．<br>
 今回はstegsolveを使い、画像のOffsetをずらすと`ケッパク`と見えたので，Submitした．<br>
+
+![keppaku.jpg](img/keppaku.png "keppaku.png")
 
 stegsolveは次のコマンドでダウンロードとコンパイルが出来る．javaの実行環境にはJDK(Java Development Kit)が必要なので，ない人は調べてみてください．<br>
 ```
@@ -487,6 +493,8 @@ https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/Referer<br>
 answersheet.pdf がダウンロード出来た．<br>
 1 ~ 12 の数字が書かれており，その隣に4文字分の空欄が書かれていた．<br>
 1文字目が囲まれていた．<br>
+
+![second.png](img/second.png "second.png")
 
 解答：<br>
 この問題は私ではなくMsYさんが解いたのでざっくりとした解答です．<br>
